@@ -62,7 +62,11 @@ void drawMap(const Player &player, int tileLength)
 	{
 		for (int j = 0; j < tileLength; ++j)
 		{
-			if (i == player.position.line / tileLength && j == player.position.column / tileLength)
+			if (j == 0 || j == tileLength - 1 || i == 0 || i == tileLength - 1)
+			{
+				std::cout << "#";
+			}
+			else if (i == player.position.line / tileLength && j == player.position.column / tileLength)
 			{
 				std::cout << player.img;
 			}
