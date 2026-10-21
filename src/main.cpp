@@ -21,7 +21,7 @@ int main()
 		.mana = 50,
 		.gameObject = {.img = 'M',
 					   .position = {
-						   .column = 32,
+						   .column = 102,
 						   .line = 32}}};
 
 	Player mob2 = {
@@ -29,7 +29,7 @@ int main()
 		.mana = 50,
 		.gameObject = {.img = 'M',
 					   .position = {
-						   .column = 64,
+						   .column = 104,
 						   .line = 64}}};
 
 	std::vector<GameObject> objects = {
