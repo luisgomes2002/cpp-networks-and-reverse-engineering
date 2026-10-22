@@ -1,7 +1,7 @@
 CMakeFiles/game.dir/engine/src/map.cpp.o: \
  /home/luis/Documents/cppteste/engine/src/map.cpp \
  /usr/include/stdc-predef.h \
- /home/luis/Documents/cppteste/engine/include/engine/map.hpp \
+ /home/luis/Documents/cppteste/engine/include/map.hpp \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -52,7 +52,7 @@ CMakeFiles/game.dir/engine/src/map.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/luis/Documents/cppteste/engine/include/engine/gameobject.hpp \
+ /home/luis/Documents/cppteste/engine/include/gameobject.hpp \
  /usr/include/c++/13/string /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
@@ -120,7 +120,7 @@ CMakeFiles/game.dir/engine/src/map.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/luis/Documents/cppteste/engine/include/engine/vec2.hpp \
+ /home/luis/Documents/cppteste/engine/include/vec2.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \

@@ -1,8 +1,8 @@
-#include "game/combat.hpp"
+#include "combat.hpp"
 
 #include <iostream>
 
-#include "engine/collision.hpp"
+#include "collision.hpp"
 
 void checkCombat(
 	Player &player,

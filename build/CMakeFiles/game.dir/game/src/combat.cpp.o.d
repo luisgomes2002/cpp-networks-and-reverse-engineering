@@ -1,7 +1,7 @@
 CMakeFiles/game.dir/game/src/combat.cpp.o: \
  /home/luis/Documents/cppteste/game/src/combat.cpp \
  /usr/include/stdc-predef.h \
- /home/luis/Documents/cppteste/game/include/game/combat.hpp \
+ /home/luis/Documents/cppteste/game/include/combat.hpp \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -120,11 +120,11 @@ CMakeFiles/game.dir/game/src/combat.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/luis/Documents/cppteste/game/include/game/character.hpp \
- /home/luis/Documents/cppteste/engine/include/engine/gameobject.hpp \
- /home/luis/Documents/cppteste/engine/include/engine/vec2.hpp \
- /home/luis/Documents/cppteste/game/include/game/mob.hpp \
- /home/luis/Documents/cppteste/game/include/game/player.hpp \
+ /home/luis/Documents/cppteste/game/include/character.hpp \
+ /home/luis/Documents/cppteste/engine/include/gameobject.hpp \
+ /home/luis/Documents/cppteste/engine/include/vec2.hpp \
+ /home/luis/Documents/cppteste/game/include/mob.hpp \
+ /home/luis/Documents/cppteste/game/include/player.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \
@@ -162,4 +162,4 @@ CMakeFiles/game.dir/game/src/combat.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/luis/Documents/cppteste/engine/include/engine/collision.hpp
+ /home/luis/Documents/cppteste/engine/include/collision.hpp

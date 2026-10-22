@@ -2,7 +2,7 @@
 
 #include <string>
 
-#include "engine/vec2.hpp"
+#include "vec2.hpp"
 
 struct GameObject
 {

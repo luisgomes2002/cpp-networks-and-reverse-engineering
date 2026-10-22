@@ -1,6 +1,6 @@
 #pragma once
 
-#include "game/character.hpp"
+#include "character.hpp"
 
 struct Mob : Character
 {

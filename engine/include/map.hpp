@@ -2,7 +2,7 @@
 
 #include <vector>
 
-#include "engine/gameobject.hpp"
+#include "gameobject.hpp"
 
 void drawMap(
 	const GameObject &player,

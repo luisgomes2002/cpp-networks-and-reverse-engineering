@@ -1,7 +1,7 @@
 CMakeFiles/game.dir/engine/src/input.cpp.o: \
  /home/luis/Documents/cppteste/engine/src/input.cpp \
  /usr/include/stdc-predef.h \
- /home/luis/Documents/cppteste/engine/include/engine/input.hpp \
+ /home/luis/Documents/cppteste/engine/include/input.hpp \
  /usr/include/termios.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

@@ -3,9 +3,9 @@
 #include <string>
 #include <vector>
 
-#include "game/character.hpp"
-#include "game/mob.hpp"
-#include "game/player.hpp"
+#include "character.hpp"
+#include "mob.hpp"
+#include "player.hpp"
 
 int attack(Character &player, Character &mob);
 void combat(Player &player, Mob &mob);

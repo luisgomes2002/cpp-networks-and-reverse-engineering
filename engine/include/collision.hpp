@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-#include "engine/gameobject.hpp"
+#include "gameobject.hpp"
 
 std::vector<GameObject *> detectObjectsInRadius(
 	GameObject &center,

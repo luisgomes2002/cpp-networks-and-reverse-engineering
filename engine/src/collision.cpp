@@ -1,4 +1,4 @@
-#include "engine/collision.hpp"
+#include "collision.hpp"
 
 #include <algorithm>
 #include <cstdlib>

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "engine/gameobject.hpp"
+#include "gameobject.hpp"
 
 struct Character
 {

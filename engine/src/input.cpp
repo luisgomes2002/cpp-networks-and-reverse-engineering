@@ -1,4 +1,4 @@
-#include "engine/input.hpp"
+#include "input.hpp"
 
 #if defined(_WIN32)
 

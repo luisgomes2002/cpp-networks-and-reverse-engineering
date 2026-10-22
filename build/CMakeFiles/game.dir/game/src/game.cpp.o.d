@@ -1,7 +1,7 @@
 CMakeFiles/game.dir/game/src/game.cpp.o: \
  /home/luis/Documents/cppteste/game/src/game.cpp \
  /usr/include/stdc-predef.h \
- /home/luis/Documents/cppteste/game/include/game/game.hpp \
+ /home/luis/Documents/cppteste/game/include/game.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -155,11 +155,11 @@ CMakeFiles/game.dir/game/src/game.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/luis/Documents/cppteste/engine/include/engine/input.hpp \
- /home/luis/Documents/cppteste/engine/include/engine/map.hpp \
- /home/luis/Documents/cppteste/engine/include/engine/gameobject.hpp \
- /home/luis/Documents/cppteste/engine/include/engine/vec2.hpp \
- /home/luis/Documents/cppteste/game/include/game/combat.hpp \
- /home/luis/Documents/cppteste/game/include/game/character.hpp \
- /home/luis/Documents/cppteste/game/include/game/mob.hpp \
- /home/luis/Documents/cppteste/game/include/game/player.hpp
+ /home/luis/Documents/cppteste/engine/include/input.hpp \
+ /home/luis/Documents/cppteste/engine/include/map.hpp \
+ /home/luis/Documents/cppteste/engine/include/gameobject.hpp \
+ /home/luis/Documents/cppteste/engine/include/vec2.hpp \
+ /home/luis/Documents/cppteste/game/include/combat.hpp \
+ /home/luis/Documents/cppteste/game/include/character.hpp \
+ /home/luis/Documents/cppteste/game/include/mob.hpp \
+ /home/luis/Documents/cppteste/game/include/player.hpp

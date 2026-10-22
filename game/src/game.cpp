@@ -1,14 +1,14 @@
-#include "game/game.hpp"
+#include "game.hpp"
 
 #include <iostream>
 #include <string>
 #include <vector>
 
-#include "engine/input.hpp"
-#include "engine/map.hpp"
-#include "game/combat.hpp"
-#include "game/mob.hpp"
-#include "game/player.hpp"
+#include "input.hpp"
+#include "map.hpp"
+#include "combat.hpp"
+#include "mob.hpp"
+#include "player.hpp"
 
 void run()
 {

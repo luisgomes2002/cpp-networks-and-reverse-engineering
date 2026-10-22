@@ -15,6 +15,6 @@ add_executable(game
 )
 
 target_include_directories(game PRIVATE
-    engine/include
-    game/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/engine/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/game/include
 )

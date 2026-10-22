@@ -1,7 +1,7 @@
 CMakeFiles/game.dir/engine/src/collision.cpp.o: \
  /home/luis/Documents/cppteste/engine/src/collision.cpp \
  /usr/include/stdc-predef.h \
- /home/luis/Documents/cppteste/engine/include/engine/collision.hpp \
+ /home/luis/Documents/cppteste/engine/include/collision.hpp \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -120,8 +120,8 @@ CMakeFiles/game.dir/engine/src/collision.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/luis/Documents/cppteste/engine/include/engine/gameobject.hpp \
- /home/luis/Documents/cppteste/engine/include/engine/vec2.hpp \
+ /home/luis/Documents/cppteste/engine/include/gameobject.hpp \
+ /home/luis/Documents/cppteste/engine/include/vec2.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \
