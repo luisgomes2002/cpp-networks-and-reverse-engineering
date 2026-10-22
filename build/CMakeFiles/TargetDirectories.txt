@@ -1,0 +1,3 @@
+/home/luis/Documents/cppteste/build/CMakeFiles/game.dir
+/home/luis/Documents/cppteste/build/CMakeFiles/edit_cache.dir
+/home/luis/Documents/cppteste/build/CMakeFiles/rebuild_cache.dir

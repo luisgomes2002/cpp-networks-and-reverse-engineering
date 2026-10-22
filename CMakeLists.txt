@@ -7,8 +7,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(game
     src/main.cpp
-    src/Input.cpp
-    src/Map.cpp
+    src/engine/collision.cpp
+    src/engine/input.cpp
+    src/engine/map.cpp
+    src/game/combat.cpp
 )
 
 target_include_directories(game PRIVATE include)

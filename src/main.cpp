@@ -1,42 +1,35 @@
 #include <iostream>
 
-#include "Input.hpp"
-#include "Map.hpp"
+#include "engine/input.hpp"
+#include "engine/map.hpp"
+#include "game/mob.hpp"
+#include "game/player.hpp"
+#include "game/combat.hpp"
 
 int main()
 {
 	int tileLength = 32;
 	char keyPressed;
 
-	Player player = {
-		.life = 100,
-		.mana = 50,
-		.gameObject = {.img = 'P',
-					   .position = {
-						   .column = 75,
-						   .line = 50}}};
+	Player player(100, 50, 10, 0, {"♙", "player", {75, 50}});
 
-	Player mob1 = {
-		.life = 100,
-		.mana = 50,
-		.gameObject = {.img = 'M',
-					   .position = {
-						   .column = 102,
-						   .line = 32}}};
+	Mob mob1(100, 50, 8, 0, {"☠", "mob", {10 * 32, 20 * 32}});
 
-	Player mob2 = {
-		.life = 100,
-		.mana = 50,
-		.gameObject = {.img = 'M',
-					   .position = {
-						   .column = 104,
-						   .line = 64}}};
+	Mob mob2(100, 50, 8, 0, {"☠", "mob", {20 * 32, 7 * 32}});
 
-	std::vector<GameObject> objects = {
-		mob1.gameObject,
-		mob2.gameObject};
+	std::vector<GameObject *> objects = {
+		&mob1.gameObject,
+		&mob2.gameObject};
 
-	drawMap(player, objects, tileLength);
+	std::vector<Mob *> mobs = {
+		&mob1,
+		&mob2};
+
+	std::vector<std::string> tags = {"mob"};
+
+	checkCombat(player, objects, mobs, tags, 1, tileLength);
+
+	drawMap(player.gameObject, objects, tileLength);
 
 	while (true)
 	{
@@ -46,19 +39,23 @@ int main()
 		{
 		case 'w':
 			player.gameObject.position.line -= tileLength;
-			drawMap(player, objects, tileLength);
+			checkCombat(player, objects, mobs, tags, 1, tileLength);
+			drawMap(player.gameObject, objects, tileLength);
 			break;
 		case 's':
 			player.gameObject.position.line += tileLength;
-			drawMap(player, objects, tileLength);
+			checkCombat(player, objects, mobs, tags, 1, tileLength);
+			drawMap(player.gameObject, objects, tileLength);
 			break;
 		case 'a':
 			player.gameObject.position.column -= tileLength;
-			drawMap(player, objects, tileLength);
+			checkCombat(player, objects, mobs, tags, 1, tileLength);
+			drawMap(player.gameObject, objects, tileLength);
 			break;
 		case 'd':
 			player.gameObject.position.column += tileLength;
-			drawMap(player, objects, tileLength);
+			checkCombat(player, objects, mobs, tags, 1, tileLength);
+			drawMap(player.gameObject, objects, tileLength);
 			break;
 		default:
 			std::cout << "Invalid key pressed. Use 'w', 'a', 's', or 'd' to move the player." << std::endl;
