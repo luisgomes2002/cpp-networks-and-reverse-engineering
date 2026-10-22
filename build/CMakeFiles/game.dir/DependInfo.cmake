@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/luis/Documents/cppteste/src/engine/collision.cpp" "CMakeFiles/game.dir/src/engine/collision.cpp.o" "gcc" "CMakeFiles/game.dir/src/engine/collision.cpp.o.d"
-  "/home/luis/Documents/cppteste/src/engine/input.cpp" "CMakeFiles/game.dir/src/engine/input.cpp.o" "gcc" "CMakeFiles/game.dir/src/engine/input.cpp.o.d"
-  "/home/luis/Documents/cppteste/src/engine/map.cpp" "CMakeFiles/game.dir/src/engine/map.cpp.o" "gcc" "CMakeFiles/game.dir/src/engine/map.cpp.o.d"
-  "/home/luis/Documents/cppteste/src/game/combat.cpp" "CMakeFiles/game.dir/src/game/combat.cpp.o" "gcc" "CMakeFiles/game.dir/src/game/combat.cpp.o.d"
-  "/home/luis/Documents/cppteste/src/main.cpp" "CMakeFiles/game.dir/src/main.cpp.o" "gcc" "CMakeFiles/game.dir/src/main.cpp.o.d"
+  "/home/luis/Documents/cppteste/engine/src/collision.cpp" "CMakeFiles/game.dir/engine/src/collision.cpp.o" "gcc" "CMakeFiles/game.dir/engine/src/collision.cpp.o.d"
+  "/home/luis/Documents/cppteste/engine/src/input.cpp" "CMakeFiles/game.dir/engine/src/input.cpp.o" "gcc" "CMakeFiles/game.dir/engine/src/input.cpp.o.d"
+  "/home/luis/Documents/cppteste/engine/src/map.cpp" "CMakeFiles/game.dir/engine/src/map.cpp.o" "gcc" "CMakeFiles/game.dir/engine/src/map.cpp.o.d"
+  "/home/luis/Documents/cppteste/game/src/combat.cpp" "CMakeFiles/game.dir/game/src/combat.cpp.o" "gcc" "CMakeFiles/game.dir/game/src/combat.cpp.o.d"
+  "/home/luis/Documents/cppteste/game/src/game.cpp" "CMakeFiles/game.dir/game/src/game.cpp.o" "gcc" "CMakeFiles/game.dir/game/src/game.cpp.o.d"
+  "/home/luis/Documents/cppteste/src/app/main.cpp" "CMakeFiles/game.dir/src/app/main.cpp.o" "gcc" "CMakeFiles/game.dir/src/app/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -6,11 +6,15 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(game
-    src/main.cpp
-    src/engine/collision.cpp
-    src/engine/input.cpp
-    src/engine/map.cpp
-    src/game/combat.cpp
+    src/app/main.cpp
+    engine/src/collision.cpp
+    engine/src/input.cpp
+    engine/src/map.cpp
+    game/src/combat.cpp
+    game/src/game.cpp
 )
 
-target_include_directories(game PRIVATE include)
+target_include_directories(game PRIVATE
+    engine/include
+    game/include
+)

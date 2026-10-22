@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/luis/Documents/cppteste/include
+CXX_INCLUDES = -I/home/luis/Documents/cppteste/engine/include -I/home/luis/Documents/cppteste/game/include
 
 CXX_FLAGS = -std=gnu++17
 

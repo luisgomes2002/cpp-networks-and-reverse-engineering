@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/game.dir/src/main.cpp.o CMakeFiles/game.dir/src/engine/collision.cpp.o CMakeFiles/game.dir/src/engine/input.cpp.o CMakeFiles/game.dir/src/engine/map.cpp.o CMakeFiles/game.dir/src/game/combat.cpp.o -o game 
+/usr/bin/c++ CMakeFiles/game.dir/src/app/main.cpp.o CMakeFiles/game.dir/engine/src/collision.cpp.o CMakeFiles/game.dir/engine/src/input.cpp.o CMakeFiles/game.dir/engine/src/map.cpp.o CMakeFiles/game.dir/game/src/combat.cpp.o CMakeFiles/game.dir/game/src/game.cpp.o -o game 

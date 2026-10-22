@@ -129,125 +129,149 @@ game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
 .PHONY : game/fast
 
-src/engine/collision.o: src/engine/collision.cpp.o
-.PHONY : src/engine/collision.o
+engine/src/collision.o: engine/src/collision.cpp.o
+.PHONY : engine/src/collision.o
 
 # target to build an object file
-src/engine/collision.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine/collision.cpp.o
-.PHONY : src/engine/collision.cpp.o
+engine/src/collision.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/collision.cpp.o
+.PHONY : engine/src/collision.cpp.o
 
-src/engine/collision.i: src/engine/collision.cpp.i
-.PHONY : src/engine/collision.i
+engine/src/collision.i: engine/src/collision.cpp.i
+.PHONY : engine/src/collision.i
 
 # target to preprocess a source file
-src/engine/collision.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine/collision.cpp.i
-.PHONY : src/engine/collision.cpp.i
+engine/src/collision.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/collision.cpp.i
+.PHONY : engine/src/collision.cpp.i
 
-src/engine/collision.s: src/engine/collision.cpp.s
-.PHONY : src/engine/collision.s
+engine/src/collision.s: engine/src/collision.cpp.s
+.PHONY : engine/src/collision.s
 
 # target to generate assembly for a file
-src/engine/collision.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine/collision.cpp.s
-.PHONY : src/engine/collision.cpp.s
+engine/src/collision.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/collision.cpp.s
+.PHONY : engine/src/collision.cpp.s
 
-src/engine/input.o: src/engine/input.cpp.o
-.PHONY : src/engine/input.o
+engine/src/input.o: engine/src/input.cpp.o
+.PHONY : engine/src/input.o
 
 # target to build an object file
-src/engine/input.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine/input.cpp.o
-.PHONY : src/engine/input.cpp.o
+engine/src/input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/input.cpp.o
+.PHONY : engine/src/input.cpp.o
 
-src/engine/input.i: src/engine/input.cpp.i
-.PHONY : src/engine/input.i
+engine/src/input.i: engine/src/input.cpp.i
+.PHONY : engine/src/input.i
 
 # target to preprocess a source file
-src/engine/input.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine/input.cpp.i
-.PHONY : src/engine/input.cpp.i
+engine/src/input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/input.cpp.i
+.PHONY : engine/src/input.cpp.i
 
-src/engine/input.s: src/engine/input.cpp.s
-.PHONY : src/engine/input.s
+engine/src/input.s: engine/src/input.cpp.s
+.PHONY : engine/src/input.s
 
 # target to generate assembly for a file
-src/engine/input.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine/input.cpp.s
-.PHONY : src/engine/input.cpp.s
+engine/src/input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/input.cpp.s
+.PHONY : engine/src/input.cpp.s
 
-src/engine/map.o: src/engine/map.cpp.o
-.PHONY : src/engine/map.o
+engine/src/map.o: engine/src/map.cpp.o
+.PHONY : engine/src/map.o
 
 # target to build an object file
-src/engine/map.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine/map.cpp.o
-.PHONY : src/engine/map.cpp.o
+engine/src/map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/map.cpp.o
+.PHONY : engine/src/map.cpp.o
 
-src/engine/map.i: src/engine/map.cpp.i
-.PHONY : src/engine/map.i
+engine/src/map.i: engine/src/map.cpp.i
+.PHONY : engine/src/map.i
 
 # target to preprocess a source file
-src/engine/map.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine/map.cpp.i
-.PHONY : src/engine/map.cpp.i
+engine/src/map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/map.cpp.i
+.PHONY : engine/src/map.cpp.i
 
-src/engine/map.s: src/engine/map.cpp.s
-.PHONY : src/engine/map.s
+engine/src/map.s: engine/src/map.cpp.s
+.PHONY : engine/src/map.s
 
 # target to generate assembly for a file
-src/engine/map.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine/map.cpp.s
-.PHONY : src/engine/map.cpp.s
+engine/src/map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/map.cpp.s
+.PHONY : engine/src/map.cpp.s
 
-src/game/combat.o: src/game/combat.cpp.o
-.PHONY : src/game/combat.o
+game/src/combat.o: game/src/combat.cpp.o
+.PHONY : game/src/combat.o
 
 # target to build an object file
-src/game/combat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/game/combat.cpp.o
-.PHONY : src/game/combat.cpp.o
+game/src/combat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/combat.cpp.o
+.PHONY : game/src/combat.cpp.o
 
-src/game/combat.i: src/game/combat.cpp.i
-.PHONY : src/game/combat.i
+game/src/combat.i: game/src/combat.cpp.i
+.PHONY : game/src/combat.i
 
 # target to preprocess a source file
-src/game/combat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/game/combat.cpp.i
-.PHONY : src/game/combat.cpp.i
+game/src/combat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/combat.cpp.i
+.PHONY : game/src/combat.cpp.i
 
-src/game/combat.s: src/game/combat.cpp.s
-.PHONY : src/game/combat.s
+game/src/combat.s: game/src/combat.cpp.s
+.PHONY : game/src/combat.s
 
 # target to generate assembly for a file
-src/game/combat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/game/combat.cpp.s
-.PHONY : src/game/combat.cpp.s
+game/src/combat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/combat.cpp.s
+.PHONY : game/src/combat.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+game/src/game.o: game/src/game.cpp.o
+.PHONY : game/src/game.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+game/src/game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/game.cpp.o
+.PHONY : game/src/game.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+game/src/game.i: game/src/game.cpp.i
+.PHONY : game/src/game.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+game/src/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/game.cpp.i
+.PHONY : game/src/game.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+game/src/game.s: game/src/game.cpp.s
+.PHONY : game/src/game.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+game/src/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/game.cpp.s
+.PHONY : game/src/game.cpp.s
+
+src/app/main.o: src/app/main.cpp.o
+.PHONY : src/app/main.o
+
+# target to build an object file
+src/app/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/app/main.cpp.o
+.PHONY : src/app/main.cpp.o
+
+src/app/main.i: src/app/main.cpp.i
+.PHONY : src/app/main.i
+
+# target to preprocess a source file
+src/app/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/app/main.cpp.i
+.PHONY : src/app/main.cpp.i
+
+src/app/main.s: src/app/main.cpp.s
+.PHONY : src/app/main.s
+
+# target to generate assembly for a file
+src/app/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/app/main.cpp.s
+.PHONY : src/app/main.cpp.s
 
 # Help Target
 help:
@@ -258,21 +282,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... game"
-	@echo "... src/engine/collision.o"
-	@echo "... src/engine/collision.i"
-	@echo "... src/engine/collision.s"
-	@echo "... src/engine/input.o"
-	@echo "... src/engine/input.i"
-	@echo "... src/engine/input.s"
-	@echo "... src/engine/map.o"
-	@echo "... src/engine/map.i"
-	@echo "... src/engine/map.s"
-	@echo "... src/game/combat.o"
-	@echo "... src/game/combat.i"
-	@echo "... src/game/combat.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... engine/src/collision.o"
+	@echo "... engine/src/collision.i"
+	@echo "... engine/src/collision.s"
+	@echo "... engine/src/input.o"
+	@echo "... engine/src/input.i"
+	@echo "... engine/src/input.s"
+	@echo "... engine/src/map.o"
+	@echo "... engine/src/map.i"
+	@echo "... engine/src/map.s"
+	@echo "... game/src/combat.o"
+	@echo "... game/src/combat.i"
+	@echo "... game/src/combat.s"
+	@echo "... game/src/game.o"
+	@echo "... game/src/game.i"
+	@echo "... game/src/game.s"
+	@echo "... src/app/main.o"
+	@echo "... src/app/main.i"
+	@echo "... src/app/main.s"
 .PHONY : help
 
 
