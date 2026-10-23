@@ -11,6 +11,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
+  "_deps/glad-src/cmake/CMakeLists.txt"
+  "_deps/glad-src/cmake/GladConfig.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
@@ -23,6 +29,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.28/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake"
+  "/usr/share/cmake-3.28/Modules/FetchContent.cmake"
+  "/usr/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in"
+  "/usr/share/cmake-3.28/Modules/FindGit.cmake"
+  "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake"
+  "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.28/Modules/FindPython.cmake"
+  "/usr/share/cmake-3.28/Modules/FindPython/Support.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake"
@@ -39,10 +54,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "_deps/glad-subbuild/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/glad-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/glad_gl_core_33.dir/DependInfo.cmake"
   "CMakeFiles/game.dir/DependInfo.cmake"
   )

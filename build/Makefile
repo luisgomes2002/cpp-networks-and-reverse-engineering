@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named glad_gl_core_33
+
+# Build rule for target.
+glad_gl_core_33: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad_gl_core_33
+.PHONY : glad_gl_core_33
+
+# fast build rule for target.
+glad_gl_core_33/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad_gl_core_33.dir/build.make CMakeFiles/glad_gl_core_33.dir/build
+.PHONY : glad_gl_core_33/fast
+
+#=============================================================================
 # Target rules for targets named game
 
 # Build rule for target.
@@ -129,125 +142,173 @@ game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
 .PHONY : game/fast
 
-engine/src/collision.o: engine/src/collision.cpp.o
-.PHONY : engine/src/collision.o
+engine/src/core/mat4.o: engine/src/core/mat4.cpp.o
+.PHONY : engine/src/core/mat4.o
 
 # target to build an object file
-engine/src/collision.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/collision.cpp.o
-.PHONY : engine/src/collision.cpp.o
+engine/src/core/mat4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/core/mat4.cpp.o
+.PHONY : engine/src/core/mat4.cpp.o
 
-engine/src/collision.i: engine/src/collision.cpp.i
-.PHONY : engine/src/collision.i
+engine/src/core/mat4.i: engine/src/core/mat4.cpp.i
+.PHONY : engine/src/core/mat4.i
 
 # target to preprocess a source file
-engine/src/collision.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/collision.cpp.i
-.PHONY : engine/src/collision.cpp.i
+engine/src/core/mat4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/core/mat4.cpp.i
+.PHONY : engine/src/core/mat4.cpp.i
 
-engine/src/collision.s: engine/src/collision.cpp.s
-.PHONY : engine/src/collision.s
+engine/src/core/mat4.s: engine/src/core/mat4.cpp.s
+.PHONY : engine/src/core/mat4.s
 
 # target to generate assembly for a file
-engine/src/collision.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/collision.cpp.s
-.PHONY : engine/src/collision.cpp.s
+engine/src/core/mat4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/core/mat4.cpp.s
+.PHONY : engine/src/core/mat4.cpp.s
 
-engine/src/input.o: engine/src/input.cpp.o
-.PHONY : engine/src/input.o
+engine/src/rendering/opengl_renderer.o: engine/src/rendering/opengl_renderer.cpp.o
+.PHONY : engine/src/rendering/opengl_renderer.o
 
 # target to build an object file
-engine/src/input.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/input.cpp.o
-.PHONY : engine/src/input.cpp.o
+engine/src/rendering/opengl_renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/rendering/opengl_renderer.cpp.o
+.PHONY : engine/src/rendering/opengl_renderer.cpp.o
 
-engine/src/input.i: engine/src/input.cpp.i
-.PHONY : engine/src/input.i
+engine/src/rendering/opengl_renderer.i: engine/src/rendering/opengl_renderer.cpp.i
+.PHONY : engine/src/rendering/opengl_renderer.i
 
 # target to preprocess a source file
-engine/src/input.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/input.cpp.i
-.PHONY : engine/src/input.cpp.i
+engine/src/rendering/opengl_renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/rendering/opengl_renderer.cpp.i
+.PHONY : engine/src/rendering/opengl_renderer.cpp.i
 
-engine/src/input.s: engine/src/input.cpp.s
-.PHONY : engine/src/input.s
+engine/src/rendering/opengl_renderer.s: engine/src/rendering/opengl_renderer.cpp.s
+.PHONY : engine/src/rendering/opengl_renderer.s
 
 # target to generate assembly for a file
-engine/src/input.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/input.cpp.s
-.PHONY : engine/src/input.cpp.s
+engine/src/rendering/opengl_renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/rendering/opengl_renderer.cpp.s
+.PHONY : engine/src/rendering/opengl_renderer.cpp.s
 
-engine/src/map.o: engine/src/map.cpp.o
-.PHONY : engine/src/map.o
+engine/src/rendering/primitives/cube_mesh.o: engine/src/rendering/primitives/cube_mesh.cpp.o
+.PHONY : engine/src/rendering/primitives/cube_mesh.o
 
 # target to build an object file
-engine/src/map.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/map.cpp.o
-.PHONY : engine/src/map.cpp.o
+engine/src/rendering/primitives/cube_mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/rendering/primitives/cube_mesh.cpp.o
+.PHONY : engine/src/rendering/primitives/cube_mesh.cpp.o
 
-engine/src/map.i: engine/src/map.cpp.i
-.PHONY : engine/src/map.i
+engine/src/rendering/primitives/cube_mesh.i: engine/src/rendering/primitives/cube_mesh.cpp.i
+.PHONY : engine/src/rendering/primitives/cube_mesh.i
 
 # target to preprocess a source file
-engine/src/map.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/map.cpp.i
-.PHONY : engine/src/map.cpp.i
+engine/src/rendering/primitives/cube_mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/rendering/primitives/cube_mesh.cpp.i
+.PHONY : engine/src/rendering/primitives/cube_mesh.cpp.i
 
-engine/src/map.s: engine/src/map.cpp.s
-.PHONY : engine/src/map.s
+engine/src/rendering/primitives/cube_mesh.s: engine/src/rendering/primitives/cube_mesh.cpp.s
+.PHONY : engine/src/rendering/primitives/cube_mesh.s
 
 # target to generate assembly for a file
-engine/src/map.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/map.cpp.s
-.PHONY : engine/src/map.cpp.s
+engine/src/rendering/primitives/cube_mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/rendering/primitives/cube_mesh.cpp.s
+.PHONY : engine/src/rendering/primitives/cube_mesh.cpp.s
 
-game/src/combat.o: game/src/combat.cpp.o
-.PHONY : game/src/combat.o
+engine/src/rendering/primitives/rectangle_mesh.o: engine/src/rendering/primitives/rectangle_mesh.cpp.o
+.PHONY : engine/src/rendering/primitives/rectangle_mesh.o
 
 # target to build an object file
-game/src/combat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/combat.cpp.o
-.PHONY : game/src/combat.cpp.o
+engine/src/rendering/primitives/rectangle_mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/rendering/primitives/rectangle_mesh.cpp.o
+.PHONY : engine/src/rendering/primitives/rectangle_mesh.cpp.o
 
-game/src/combat.i: game/src/combat.cpp.i
-.PHONY : game/src/combat.i
+engine/src/rendering/primitives/rectangle_mesh.i: engine/src/rendering/primitives/rectangle_mesh.cpp.i
+.PHONY : engine/src/rendering/primitives/rectangle_mesh.i
 
 # target to preprocess a source file
-game/src/combat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/combat.cpp.i
-.PHONY : game/src/combat.cpp.i
+engine/src/rendering/primitives/rectangle_mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/rendering/primitives/rectangle_mesh.cpp.i
+.PHONY : engine/src/rendering/primitives/rectangle_mesh.cpp.i
 
-game/src/combat.s: game/src/combat.cpp.s
-.PHONY : game/src/combat.s
+engine/src/rendering/primitives/rectangle_mesh.s: engine/src/rendering/primitives/rectangle_mesh.cpp.s
+.PHONY : engine/src/rendering/primitives/rectangle_mesh.s
 
 # target to generate assembly for a file
-game/src/combat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/combat.cpp.s
-.PHONY : game/src/combat.cpp.s
+engine/src/rendering/primitives/rectangle_mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/rendering/primitives/rectangle_mesh.cpp.s
+.PHONY : engine/src/rendering/primitives/rectangle_mesh.cpp.s
 
-game/src/game.o: game/src/game.cpp.o
-.PHONY : game/src/game.o
+engine/src/rendering/shader_program.o: engine/src/rendering/shader_program.cpp.o
+.PHONY : engine/src/rendering/shader_program.o
 
 # target to build an object file
-game/src/game.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/game.cpp.o
-.PHONY : game/src/game.cpp.o
+engine/src/rendering/shader_program.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/rendering/shader_program.cpp.o
+.PHONY : engine/src/rendering/shader_program.cpp.o
 
-game/src/game.i: game/src/game.cpp.i
-.PHONY : game/src/game.i
+engine/src/rendering/shader_program.i: engine/src/rendering/shader_program.cpp.i
+.PHONY : engine/src/rendering/shader_program.i
 
 # target to preprocess a source file
-game/src/game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/game.cpp.i
-.PHONY : game/src/game.cpp.i
+engine/src/rendering/shader_program.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/rendering/shader_program.cpp.i
+.PHONY : engine/src/rendering/shader_program.cpp.i
 
-game/src/game.s: game/src/game.cpp.s
-.PHONY : game/src/game.s
+engine/src/rendering/shader_program.s: engine/src/rendering/shader_program.cpp.s
+.PHONY : engine/src/rendering/shader_program.s
 
 # target to generate assembly for a file
-game/src/game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/game.cpp.s
-.PHONY : game/src/game.cpp.s
+engine/src/rendering/shader_program.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/engine/src/rendering/shader_program.cpp.s
+.PHONY : engine/src/rendering/shader_program.cpp.s
+
+game/src/systems/game.o: game/src/systems/game.cpp.o
+.PHONY : game/src/systems/game.o
+
+# target to build an object file
+game/src/systems/game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/systems/game.cpp.o
+.PHONY : game/src/systems/game.cpp.o
+
+game/src/systems/game.i: game/src/systems/game.cpp.i
+.PHONY : game/src/systems/game.i
+
+# target to preprocess a source file
+game/src/systems/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/systems/game.cpp.i
+.PHONY : game/src/systems/game.cpp.i
+
+game/src/systems/game.s: game/src/systems/game.cpp.s
+.PHONY : game/src/systems/game.s
+
+# target to generate assembly for a file
+game/src/systems/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/game/src/systems/game.cpp.s
+.PHONY : game/src/systems/game.cpp.s
+
+gladsources/glad_gl_core_33/src/gl.o: gladsources/glad_gl_core_33/src/gl.c.o
+.PHONY : gladsources/glad_gl_core_33/src/gl.o
+
+# target to build an object file
+gladsources/glad_gl_core_33/src/gl.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad_gl_core_33.dir/build.make CMakeFiles/glad_gl_core_33.dir/gladsources/glad_gl_core_33/src/gl.c.o
+.PHONY : gladsources/glad_gl_core_33/src/gl.c.o
+
+gladsources/glad_gl_core_33/src/gl.i: gladsources/glad_gl_core_33/src/gl.c.i
+.PHONY : gladsources/glad_gl_core_33/src/gl.i
+
+# target to preprocess a source file
+gladsources/glad_gl_core_33/src/gl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad_gl_core_33.dir/build.make CMakeFiles/glad_gl_core_33.dir/gladsources/glad_gl_core_33/src/gl.c.i
+.PHONY : gladsources/glad_gl_core_33/src/gl.c.i
+
+gladsources/glad_gl_core_33/src/gl.s: gladsources/glad_gl_core_33/src/gl.c.s
+.PHONY : gladsources/glad_gl_core_33/src/gl.s
+
+# target to generate assembly for a file
+gladsources/glad_gl_core_33/src/gl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad_gl_core_33.dir/build.make CMakeFiles/glad_gl_core_33.dir/gladsources/glad_gl_core_33/src/gl.c.s
+.PHONY : gladsources/glad_gl_core_33/src/gl.c.s
 
 src/app/main.o: src/app/main.cpp.o
 .PHONY : src/app/main.o
@@ -282,21 +343,28 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... game"
-	@echo "... engine/src/collision.o"
-	@echo "... engine/src/collision.i"
-	@echo "... engine/src/collision.s"
-	@echo "... engine/src/input.o"
-	@echo "... engine/src/input.i"
-	@echo "... engine/src/input.s"
-	@echo "... engine/src/map.o"
-	@echo "... engine/src/map.i"
-	@echo "... engine/src/map.s"
-	@echo "... game/src/combat.o"
-	@echo "... game/src/combat.i"
-	@echo "... game/src/combat.s"
-	@echo "... game/src/game.o"
-	@echo "... game/src/game.i"
-	@echo "... game/src/game.s"
+	@echo "... glad_gl_core_33"
+	@echo "... engine/src/core/mat4.o"
+	@echo "... engine/src/core/mat4.i"
+	@echo "... engine/src/core/mat4.s"
+	@echo "... engine/src/rendering/opengl_renderer.o"
+	@echo "... engine/src/rendering/opengl_renderer.i"
+	@echo "... engine/src/rendering/opengl_renderer.s"
+	@echo "... engine/src/rendering/primitives/cube_mesh.o"
+	@echo "... engine/src/rendering/primitives/cube_mesh.i"
+	@echo "... engine/src/rendering/primitives/cube_mesh.s"
+	@echo "... engine/src/rendering/primitives/rectangle_mesh.o"
+	@echo "... engine/src/rendering/primitives/rectangle_mesh.i"
+	@echo "... engine/src/rendering/primitives/rectangle_mesh.s"
+	@echo "... engine/src/rendering/shader_program.o"
+	@echo "... engine/src/rendering/shader_program.i"
+	@echo "... engine/src/rendering/shader_program.s"
+	@echo "... game/src/systems/game.o"
+	@echo "... game/src/systems/game.i"
+	@echo "... game/src/systems/game.s"
+	@echo "... gladsources/glad_gl_core_33/src/gl.o"
+	@echo "... gladsources/glad_gl_core_33/src/gl.i"
+	@echo "... gladsources/glad_gl_core_33/src/gl.s"
 	@echo "... src/app/main.o"
 	@echo "... src/app/main.i"
 	@echo "... src/app/main.s"

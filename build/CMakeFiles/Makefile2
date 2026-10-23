@@ -63,30 +63,75 @@ CMAKE_BINARY_DIR = /home/luis/Documents/cppteste/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/glad_gl_core_33.dir/all
 all: CMakeFiles/game.dir/all
+all: _deps/glad-build/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: _deps/glad-build/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/glad_gl_core_33.dir/clean
 clean: CMakeFiles/game.dir/clean
+clean: _deps/glad-build/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory _deps/glad-build
+
+# Recursive "all" directory target.
+_deps/glad-build/all:
+.PHONY : _deps/glad-build/all
+
+# Recursive "preinstall" directory target.
+_deps/glad-build/preinstall:
+.PHONY : _deps/glad-build/preinstall
+
+# Recursive "clean" directory target.
+_deps/glad-build/clean:
+.PHONY : _deps/glad-build/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/glad_gl_core_33.dir
+
+# All Build rule for target.
+CMakeFiles/glad_gl_core_33.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad_gl_core_33.dir/build.make CMakeFiles/glad_gl_core_33.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad_gl_core_33.dir/build.make CMakeFiles/glad_gl_core_33.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/luis/Documents/cppteste/build/CMakeFiles --progress-num=9,10,11 "Built target glad_gl_core_33"
+.PHONY : CMakeFiles/glad_gl_core_33.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/glad_gl_core_33.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/cppteste/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/glad_gl_core_33.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/cppteste/build/CMakeFiles 0
+.PHONY : CMakeFiles/glad_gl_core_33.dir/rule
+
+# Convenience name for target.
+glad_gl_core_33: CMakeFiles/glad_gl_core_33.dir/rule
+.PHONY : glad_gl_core_33
+
+# clean rule for target.
+CMakeFiles/glad_gl_core_33.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad_gl_core_33.dir/build.make CMakeFiles/glad_gl_core_33.dir/clean
+.PHONY : CMakeFiles/glad_gl_core_33.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/game.dir
 
 # All Build rule for target.
-CMakeFiles/game.dir/all:
+CMakeFiles/game.dir/all: CMakeFiles/glad_gl_core_33.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/luis/Documents/cppteste/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/luis/Documents/cppteste/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target game"
 .PHONY : CMakeFiles/game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/cppteste/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/cppteste/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/Documents/cppteste/build/CMakeFiles 0
 .PHONY : CMakeFiles/game.dir/rule

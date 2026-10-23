@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/luis/Documents/cppteste/engine/src/collision.cpp" "CMakeFiles/game.dir/engine/src/collision.cpp.o" "gcc" "CMakeFiles/game.dir/engine/src/collision.cpp.o.d"
-  "/home/luis/Documents/cppteste/engine/src/input.cpp" "CMakeFiles/game.dir/engine/src/input.cpp.o" "gcc" "CMakeFiles/game.dir/engine/src/input.cpp.o.d"
-  "/home/luis/Documents/cppteste/engine/src/map.cpp" "CMakeFiles/game.dir/engine/src/map.cpp.o" "gcc" "CMakeFiles/game.dir/engine/src/map.cpp.o.d"
-  "/home/luis/Documents/cppteste/game/src/combat.cpp" "CMakeFiles/game.dir/game/src/combat.cpp.o" "gcc" "CMakeFiles/game.dir/game/src/combat.cpp.o.d"
-  "/home/luis/Documents/cppteste/game/src/game.cpp" "CMakeFiles/game.dir/game/src/game.cpp.o" "gcc" "CMakeFiles/game.dir/game/src/game.cpp.o.d"
+  "/home/luis/Documents/cppteste/engine/src/core/mat4.cpp" "CMakeFiles/game.dir/engine/src/core/mat4.cpp.o" "gcc" "CMakeFiles/game.dir/engine/src/core/mat4.cpp.o.d"
+  "/home/luis/Documents/cppteste/engine/src/rendering/opengl_renderer.cpp" "CMakeFiles/game.dir/engine/src/rendering/opengl_renderer.cpp.o" "gcc" "CMakeFiles/game.dir/engine/src/rendering/opengl_renderer.cpp.o.d"
+  "/home/luis/Documents/cppteste/engine/src/rendering/primitives/cube_mesh.cpp" "CMakeFiles/game.dir/engine/src/rendering/primitives/cube_mesh.cpp.o" "gcc" "CMakeFiles/game.dir/engine/src/rendering/primitives/cube_mesh.cpp.o.d"
+  "/home/luis/Documents/cppteste/engine/src/rendering/primitives/rectangle_mesh.cpp" "CMakeFiles/game.dir/engine/src/rendering/primitives/rectangle_mesh.cpp.o" "gcc" "CMakeFiles/game.dir/engine/src/rendering/primitives/rectangle_mesh.cpp.o.d"
+  "/home/luis/Documents/cppteste/engine/src/rendering/shader_program.cpp" "CMakeFiles/game.dir/engine/src/rendering/shader_program.cpp.o" "gcc" "CMakeFiles/game.dir/engine/src/rendering/shader_program.cpp.o.d"
+  "/home/luis/Documents/cppteste/game/src/systems/game.cpp" "CMakeFiles/game.dir/game/src/systems/game.cpp.o" "gcc" "CMakeFiles/game.dir/game/src/systems/game.cpp.o.d"
   "/home/luis/Documents/cppteste/src/app/main.cpp" "CMakeFiles/game.dir/src/app/main.cpp.o" "gcc" "CMakeFiles/game.dir/src/app/main.cpp.o.d"
   )
 

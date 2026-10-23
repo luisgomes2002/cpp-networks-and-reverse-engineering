@@ -1,3 +1,6 @@
+/home/luis/Documents/cppteste/build/CMakeFiles/glad_gl_core_33.dir
 /home/luis/Documents/cppteste/build/CMakeFiles/game.dir
 /home/luis/Documents/cppteste/build/CMakeFiles/edit_cache.dir
 /home/luis/Documents/cppteste/build/CMakeFiles/rebuild_cache.dir
+/home/luis/Documents/cppteste/build/_deps/glad-build/CMakeFiles/edit_cache.dir
+/home/luis/Documents/cppteste/build/_deps/glad-build/CMakeFiles/rebuild_cache.dir
