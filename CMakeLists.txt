@@ -31,7 +31,7 @@ add_subdirectory(${glad_SOURCE_DIR}/cmake ${glad_BINARY_DIR})
 glad_add_library(glad_gl_core_33 REPRODUCIBLE API gl:core=3.3)
 
 add_executable(game
-    src/app/main.cpp
+    main.cpp
     engine/src/core/mat4.cpp
     engine/src/rendering/opengl_renderer.cpp
     engine/src/rendering/shader_program.cpp
